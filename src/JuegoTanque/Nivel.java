@@ -16,14 +16,12 @@ public class Nivel {
         
         marcador = 2;
         this.game = game;
-        tanqueEnemigo1 = new Tanque(this);
-        this.tanqueEnemigo2 = tanque;
-        this.tanqueEnemigo3 = tanque;
+        
     }
     
     public void nivel1(){
         tanqueEnemigo1.setPosicionX(200);
-        tanqueEnemigo1.visualizar(g);
+        
     }
     public void nivel2(){
         tanqueEnemigo1.setPosicionX(100);
